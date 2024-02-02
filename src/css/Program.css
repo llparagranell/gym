@@ -1,0 +1,85 @@
+.program-container{
+    height: 200px;
+}
+.program-text {
+    display: flex;
+    position: relative;
+}
+.program-text h1{
+    position: absolute;
+    font-size: 8rem;
+    font-weight: 800;
+    color: rgba(211, 211, 211, 0.215);
+    left: -30px;
+}
+.programs{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0 10vw;
+    height: 170px;
+    z-index: 1;
+}
+.program-btn{
+    display: flex;
+}
+.program-btn li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    border: 1px solid rgba(211, 211, 211, 0.274);
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 0 4px;
+    list-style-type: none;
+}
+.program-btn li:nth-child(2){
+    background-color: darkblue;
+    color: white;
+    align-items: center;
+    border: none;
+}
+.cards{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 10vw;
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.279);
+    min-width: 270px;
+    margin: 0 20px;
+    padding: 30px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+width: 1px;
+}
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.522);
+}
+.card li{
+    list-style-type: none;
+    color: blue;
+    font-size: 50px;
+}
+
+.card p{
+    margin-top: 5px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+
+@media screen and (max-width:450px) {
+   .program-text h1{
+    font-size: 6rem;
+   }
+   .card{
+    margin: 0 2vw;
+   }
+}

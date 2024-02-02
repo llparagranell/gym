@@ -1,0 +1,52 @@
+.home-component{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+
+}
+.home-component p{
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.home-btn button{
+    color: darkblue;
+    font-size: 18px;
+    padding:10px 25px;
+    border: none;
+    border-radius: 3px;
+    background-color:white;
+    font-weight: bold;
+    margin: 30px 10px 0 10px;
+}
+.home-btn button:nth-child(2){
+    background-color: darkblue;
+    color: white;
+    align-items: center;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    align-items: end;
+    position: absolute;
+    z-index: -1;
+}
+.bg div{
+    background-color: rgba(0, 0, 0, 0.396);
+    /* background-color: rgba(0, 0, 255, 0.258); */
+    width: 700px;
+    height: 600px;
+    border-radius: 50%;
+    filter: blur(100px);
+}
+
+@media screen and (max-width:450px) {
+    .bg div{
+        width: 100%;
+    }
+}

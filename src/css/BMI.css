@@ -1,0 +1,80 @@
+.bmi{
+    color: blue;
+    font-size: 70px;
+    display: inline;
+}
+.bmi-head{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    line-height: 1.1;
+}
+.bmi-gender{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.bmi-card{
+    margin: 0 20px;
+    width: 200px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.279);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bmi-card li{
+    list-style-type: none;
+    color: white;
+    font-size: 100px;
+}
+.bmi-card:nth-child(2){
+    background-color: darkblue;
+}
+.bmi-mid{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.bmi-mid p {
+    margin-bottom: 20px;
+}
+.bmi-mid div{
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+}
+.bmi-mid div input{
+    padding: 12px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+    font-weight: bold;
+
+}
+.bmi-mid div input::placeholder{
+    color: rgba(0, 0, 0, 0.856);
+    font-weight: bold;
+}
+.bmi-btn{
+    margin-top: 20px;
+}
+.bmi-btn button{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
