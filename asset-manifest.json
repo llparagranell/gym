@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/llparagranell/gym.git/static/css/main.93d64b56.css",
-    "main.js": "/llparagranell/gym.git/static/js/main.8d700cfb.js",
-    "static/js/787.21e5cda4.chunk.js": "/llparagranell/gym.git/static/js/787.21e5cda4.chunk.js",
-    "index.html": "/llparagranell/gym.git/index.html",
-    "main.93d64b56.css.map": "/llparagranell/gym.git/static/css/main.93d64b56.css.map",
-    "main.8d700cfb.js.map": "/llparagranell/gym.git/static/js/main.8d700cfb.js.map",
-    "787.21e5cda4.chunk.js.map": "/llparagranell/gym.git/static/js/787.21e5cda4.chunk.js.map"
+    "main.css": "/gym.git/static/css/main.93d64b56.css",
+    "main.js": "/gym.git/static/js/main.7555db59.js",
+    "static/js/787.21e5cda4.chunk.js": "/gym.git/static/js/787.21e5cda4.chunk.js",
+    "index.html": "/gym.git/index.html",
+    "main.93d64b56.css.map": "/gym.git/static/css/main.93d64b56.css.map",
+    "main.7555db59.js.map": "/gym.git/static/js/main.7555db59.js.map",
+    "787.21e5cda4.chunk.js.map": "/gym.git/static/js/787.21e5cda4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93d64b56.css",
-    "static/js/main.8d700cfb.js"
+    "static/js/main.7555db59.js"
   ]
 }
