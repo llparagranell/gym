@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} exact />
           <Route path="/bmi" element={<BMI />} />
           <Route path="/join" element={<Join />} />
         </Routes>
