@@ -17,17 +17,17 @@ function Header() {
           <h1 className="logo"><GiMoebiusTriangle/></h1>
         </ul>
         <ul className="res">
-          <Link className="font-small" to='/'>Home</Link>
-          <Link className="font-small">Programs</Link>
-          <Link className="font-small">Contact</Link>
-          <Link className="font-small">Plans</Link>
+          <Link className="font-small" to='/gym'>Home</Link>
+          <a className="font-small" href="#program">Programs</a>
+          <a className="font-small" href="/join">Contact</a>
+          <a className="font-small" href="#plans">Plans</a>
           <Link className="font-small" to="/bmi">BMI</Link>
         </ul>
         <span className="span-res" onClick={openNav}>&#9776;</span>
       </nav>
       
 <div id="mySidenav" className="sidenav">
-  <a  className="closebtn" onClick={closeNav}>&times;</a>
+  <a  className="closebtn" href="/#" onClick={closeNav}>&times;</a>
   <Link className="font-small" to='/'>Home</Link>
           <Link className="font-small">Programs</Link>
           <Link className="font-small">Contact</Link>

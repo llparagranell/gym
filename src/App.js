@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} exact />
+          <Route exact path="/gym" element={<Home />}  />
           <Route path="/bmi" element={<BMI />} />
           <Route path="/join" element={<Join />} />
         </Routes>

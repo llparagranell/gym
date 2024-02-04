@@ -8,7 +8,7 @@ function Transform() {
       <div className="transform-container">
         <div
           className="transform-img"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-duration="2000"
         >
           <img
@@ -18,7 +18,7 @@ function Transform() {
         </div>
         <div
           className="transform-text"
-          data-aos="fade-left"
+          data-aos="fade-up"
           data-aos-duration="2000"
         >
           <h1 className="font-large">

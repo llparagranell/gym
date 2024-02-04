@@ -19,7 +19,7 @@ function Program() {
     })}
   return (
     <>
-      <div className="program-container">
+      <div className="program-container" id="program">
         <div className="program-text">
           <h1>Program</h1>
         </div>
