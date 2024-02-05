@@ -77,4 +77,11 @@
     margin-top: 10px;
     cursor: pointer;
 }
-
+@media screen and (max-width:450px) {
+    .bmi-mid div{
+        align-items: center;
+    }
+    .bmi-mid div input{
+        width: 80vw;
+    }
+}

@@ -70,6 +70,7 @@ nav ul a:hover{
   @media screen and (max-width: 450px) {
     .span-res{
       display: block;
+      margin-right: 20px;
     }
     .res{
       display: none;
